@@ -3,26 +3,26 @@ package n1exercici1;
 import java.util.ArrayList;
 
 public class NoGenericMethods  {
-    private int dos;
-    private int tres;
-    private int quatre;
+    Persona persona1;
+    Persona persona2;
+    Persona persona3;
 
-    public NoGenericMethods(int dos, int tres, int quatre) {
-        this.dos = dos;
-        this.tres = tres;
-        this.quatre = quatre;
+    public NoGenericMethods(Persona persona1, Persona persona2, Persona persona3) {
+        this.persona1 = persona1;
+        this.persona2 = persona2;
+        this.persona3 = persona3;
     }
 
-    public int getDos() {
-        return dos;
+    public Persona getPersona1() {
+        return persona1;
     }
 
-    public int getTres() {
-        return tres;
+    public Persona getPersona2() {
+        return persona2;
     }
 
-    public int getQuatre() {
-        return quatre;
+    public Persona getPersona3() {
+        return persona3;
     }
 
     @Override
